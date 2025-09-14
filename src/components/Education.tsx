@@ -190,7 +190,7 @@ export default function Education() {
                 Continuous Learning
               </h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Beyond formal education, I'm constantly learning through online courses, 
+                Beyond formal education, I&apos;m constantly learning through online courses, 
                 personal projects, and staying updated with the latest technologies in AI and web development. 
                 I believe in the power of continuous learning to stay relevant in the fast-evolving tech industry.
               </p>

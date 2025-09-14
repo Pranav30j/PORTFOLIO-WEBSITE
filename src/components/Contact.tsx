@@ -88,7 +88,7 @@ export default function Contact() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4"
             >
-              Let's Connect
+              Let&apos;s Connect
             </motion.h2>
             <motion.div
               initial={{ width: 0 }}
@@ -102,7 +102,7 @@ export default function Contact() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-lg text-gray-600 dark:text-gray-400 mt-6 max-w-2xl mx-auto"
             >
-              Have a project in mind or want to collaborate? I'd love to hear from you!
+              Have a project in mind or want to collaborate? I&apos;d love to hear from you!
             </motion.p>
           </div>
 
@@ -119,7 +119,7 @@ export default function Contact() {
                   Get in Touch
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8">
-                  I'm always interested in new opportunities and exciting projects. 
+                  I&apos;m always interested in new opportunities and exciting projects. 
                   Whether you have a question, want to collaborate, or just want to say hi, 
                   feel free to reach out!
                 </p>

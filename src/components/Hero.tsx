@@ -62,7 +62,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6"
           >
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-indigo-600">
               Pranav
             </span>{' '}

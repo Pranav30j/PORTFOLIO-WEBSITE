@@ -200,8 +200,8 @@ export default function Experience() {
                 Ready for New Challenges
               </h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                I'm always looking for new opportunities to grow and contribute to meaningful projects. 
-                Let's discuss how I can bring value to your team.
+                I&apos;m always looking for new opportunities to grow and contribute to meaningful projects. 
+                Let&apos;s discuss how I can bring value to your team.
               </p>
               <motion.button
                 onClick={() => {
@@ -214,7 +214,7 @@ export default function Experience() {
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
-                Let's Connect
+                Let&apos;s Connect
               </motion.button>
             </div>
           </motion.div>

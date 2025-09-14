@@ -138,7 +138,7 @@ export default function Skills() {
                 Always Learning & Growing
               </h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm constantly exploring new technologies and frameworks to stay at the forefront of development. 
+                I&apos;m constantly exploring new technologies and frameworks to stay at the forefront of development. 
                 My passion for learning drives me to tackle complex challenges and deliver innovative solutions.
               </p>
             </div>
