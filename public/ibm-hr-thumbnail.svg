@@ -1,0 +1,61 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Circuit board pattern -->
+  <defs>
+    <pattern id="circuit" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="#3b82f6" opacity="0.3"/>
+      <path d="M 0 20 L 40 20 M 20 0 L 20 40" stroke="#3b82f6" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#circuit)"/>
+  
+  <!-- Group of people (silhouettes) -->
+  <rect x="50" y="150" width="15" height="40" fill="#1e293b"/>
+  <rect x="70" y="140" width="15" height="50" fill="#1e293b"/>
+  <rect x="90" y="130" width="15" height="60" fill="#1e293b"/>
+  <rect x="110" y="145" width="15" height="45" fill="#1e293b"/>
+  <rect x="130" y="135" width="15" height="55" fill="#1e293b"/>
+  
+  <!-- Table -->
+  <rect x="40" y="190" width="120" height="8" fill="#374151"/>
+  
+  <!-- Glowing individual -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="280" cy="160" rx="25" ry="40" fill="url(#glow)"/>
+  <rect x="270" y="140" width="20" height="40" fill="#f59e0b"/>
+  <rect x="275" y="120" width="10" height="20" fill="#f59e0b"/>
+  
+  <!-- Charts and icons -->
+  <rect x="300" y="50" width="4" height="20" fill="#60a5fa"/>
+  <rect x="310" y="40" width="4" height="30" fill="#60a5fa"/>
+  <rect x="320" y="30" width="4" height="40" fill="#60a5fa"/>
+  <rect x="330" y="35" width="4" height="35" fill="#60a5fa"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="320" cy="100" r="15" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <path d="M 330 110 L 340 120" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Network nodes -->
+  <circle cx="350" cy="80" r="8" fill="#60a5fa"/>
+  <circle cx="365" cy="70" r="4" fill="#60a5fa"/>
+  <circle cx="365" cy="90" r="4" fill="#60a5fa"/>
+  <circle cx="380" cy="80" r="4" fill="#60a5fa"/>
+  <path d="M 350 80 L 365 70 M 350 80 L 365 90 M 350 80 L 380 80" stroke="#60a5fa" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">IBM HR Analytics</text>
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Employee Attrition Prediction</text>
+</svg>

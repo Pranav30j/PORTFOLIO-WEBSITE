@@ -1,0 +1,59 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1e40af"/>
+  
+  <!-- Title -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">CUSTOMER</text>
+  <text x="50" y="65" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">SATISFACTION</text>
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">PREDICTION</text>
+  
+  <!-- People figures -->
+  <rect x="50" y="200" width="20" height="40" fill="#10b981"/>
+  <rect x="80" y="190" width="20" height="50" fill="#3b82f6"/>
+  <rect x="110" y="195" width="20" height="45" fill="#f59e0b"/>
+  
+  <!-- Thought bubbles -->
+  <ellipse cx="90" cy="170" rx="15" ry="10" fill="#fbbf24"/>
+  <text x="90" y="175" font-family="Arial" font-size="16" fill="black" text-anchor="middle">😊</text>
+  
+  <ellipse cx="120" cy="165" rx="12" ry="8" fill="#fbbf24"/>
+  <text x="120" y="170" font-family="Arial" font-size="12" fill="black" text-anchor="middle">⭐</text>
+  
+  <!-- AI Head with circuit pattern -->
+  <path d="M 280 80 Q 300 60 320 80 Q 320 100 300 120 Q 280 100 280 80" fill="#e5e7eb"/>
+  <circle cx="290" cy="90" r="3" fill="#3b82f6"/>
+  <circle cx="310" cy="90" r="3" fill="#3b82f6"/>
+  <path d="M 290 100 Q 300 105 310 100" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  
+  <!-- Circuit pattern in head -->
+  <path d="M 285 85 L 295 85 M 290 80 L 290 90" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+  <path d="M 305 85 L 315 85 M 310 80 L 310 90" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Bar charts -->
+  <rect x="250" y="150" width="8" height="30" fill="#e5e7eb"/>
+  <rect x="260" y="140" width="8" height="40" fill="#e5e7eb"/>
+  <rect x="270" y="130" width="8" height="50" fill="#e5e7eb"/>
+  <rect x="280" y="145" width="8" height="35" fill="#e5e7eb"/>
+  
+  <!-- Line graph -->
+  <path d="M 320 180 L 330 170 L 340 160 L 350 165 L 360 155" stroke="#e5e7eb" stroke-width="3" fill="none"/>
+  <circle cx="320" cy="180" r="3" fill="#e5e7eb"/>
+  <circle cx="330" cy="170" r="3" fill="#e5e7eb"/>
+  <circle cx="340" cy="160" r="3" fill="#e5e7eb"/>
+  <circle cx="350" cy="165" r="3" fill="#e5e7eb"/>
+  <circle cx="360" cy="155" r="3" fill="#e5e7eb"/>
+  
+  <!-- Gear icon -->
+  <g transform="translate(320, 220)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+    <circle cx="0" cy="0" r="5" fill="#e5e7eb"/>
+    <rect x="-2" y="-20" width="4" height="8" fill="#e5e7eb"/>
+    <rect x="-2" y="12" width="4" height="8" fill="#e5e7eb"/>
+    <rect x="-20" y="-2" width="8" height="4" fill="#e5e7eb"/>
+    <rect x="12" y="-2" width="8" height="4" fill="#e5e7eb"/>
+  </g>
+  
+  <!-- Large donut chart -->
+  <circle cx="200" cy="200" r="40" fill="none" stroke="#e5e7eb" stroke-width="8"/>
+  <path d="M 200 160 A 40 40 0 0 1 240 200" stroke="#f59e0b" stroke-width="8" fill="none"/>
+</svg>
